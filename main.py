@@ -2,6 +2,7 @@ import asyncio
 import logging
 
 from aiogram import Bot, Dispatcher
+from aiogram.utils.i18n import I18n, ConstI18nMiddleware
 from config_data.config import Config, load_config
 from handlers.other import other_router
 from handlers.user import user_router
@@ -32,8 +33,10 @@ async def main() -> None:
     dp.include_router(user_router)
     dp.include_router(other_router)
 
+    i18n = I18n(path="locales", default_locale="ru", domain="i18n_example_bot")
+
     # Здесь будем регистрировать миддлвари
-    # ...
+    dp.update.middleware(ConstI18nMiddleware(locale='en', i18n=i18n))
 
     # Запускаем polling
     await dp.start_polling(bot)
