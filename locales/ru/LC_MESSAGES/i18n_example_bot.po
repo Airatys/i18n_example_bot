@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: i18n_example_bot 0.1\n"
 "Report-Msgid-Bugs-To: kms101@yandex.ru\n"
-"POT-Creation-Date: 2025-12-06 10:20+0300\n"
+"POT-Creation-Date: 2025-12-06 17:20+0300\n"
 "PO-Revision-Date: 2025-12-06 11:18+0300\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ru\n"
@@ -24,7 +24,7 @@ msgstr ""
 msgid "Данный тип апдейтов не поддерживается методом send_copy"
 msgstr "Данный тип апдейтов не поддерживается методом send_copy"
 
-#: handlers/user.py:22
+#: handlers/user.py:21
 msgid "Кнопка"
 msgstr "Кнопка"
 
@@ -33,6 +33,20 @@ msgstr "Кнопка"
 msgid "Привет, {username}. Нажмите на кнопку"
 msgstr "Привет, {username}. Нажмите на кнопку"
 
-#: handlers/user.py:37
-msgid "Вы нажали на кнопку"
-msgstr "Вы нажали на кнопку"
+#: handlers/user.py:38
+msgid ""
+"Это бот для демонстрации процесса интернационализации\n"
+"\n"
+"Доступные команды:\n"
+"\n"
+"/start - перезапуск бота/help - справка по работе бота"
+msgstr ""
+"Это бот для демонстрации процесса интернационализации\n"
+"\n"
+"Доступные команды:\n"
+"\n"
+"/start - перезапуск бота/help - справка по работе бота"
+
+#: handlers/user.py:48y
+msgid "Вы нажали на кнопку!"
+msgstr "Вы нажали на кнопку!"
