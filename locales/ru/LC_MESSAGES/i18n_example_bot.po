@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: i18n_example_bot 0.1\n"
 "Report-Msgid-Bugs-To: kms101@yandex.ru\n"
-"POT-Creation-Date: 2025-12-06 17:20+0300\n"
+"POT-Creation-Date: 2025-12-08 09:30+0300\n"
 "PO-Revision-Date: 2025-12-06 11:18+0300\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ru\n"
@@ -47,6 +47,7 @@ msgstr ""
 "\n"
 "/start - перезапуск бота/help - справка по работе бота"
 
-#: handlers/user.py:48y
+#: handlers/user.py:48
 msgid "Вы нажали на кнопку!"
 msgstr "Вы нажали на кнопку!"
+
