@@ -21,19 +21,19 @@ msgstr ""
 
 #: handlers/other.py:17
 msgid "Данный тип апдейтов не поддерживается методом send_copy"
-msgstr ""
+msgstr "Ce type de mise à jour n'est pas supporté par la méthode send_copy"
 
 #: handlers/user.py:19
 msgid "Добавить 1 товар"
-msgstr ""
+msgstr "Ajouter 1 produit"
 
 #: handlers/user.py:23
 msgid "Добавить 3 товара"
-msgstr ""
+msgstr "Ajouter 3 produits"
 
 #: handlers/user.py:27
 msgid "Убрать 1 товар"
-msgstr ""
+msgstr "Supprimer 1 produit"
 
 #: handlers/user.py:41
 msgid "Кнопка"
@@ -46,6 +46,9 @@ msgid ""
 "\n"
 "Добавьте товары в корзину"
 msgstr ""
+"Bonjour {username}.\n"
+"\n"
+"Ajouter des articles au panier"
 
 #: handlers/user.py:59
 msgid ""
@@ -56,27 +59,33 @@ msgid ""
 "/start - перезапуск бота\n"
 "/help - справка по работе бота"
 msgstr ""
+"Ceci est un bot pour démontrer le processus d'internationalisation\n"
+"\n"
+"Commandes disponibles :\n"
+"\n"
+"/start - redémarre le bot\n"
+"/help - aide avec le bot"
 
 #: handlers/user.py:73
 msgid "Вы удалили товар"
-msgstr ""
+msgstr "Vous avez supprimé le produit"
 
 #: handlers/user.py:76 handlers/user.py:96
 #, python-brace-format
 msgid "В корзине {} товар"
 msgid_plural "В корзине {} товаров"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Il y a {} article dans le panier"
+msgstr[1] "Il y a {} articles dans votre panier"
 
 #: handlers/user.py:80
 msgid "В корзине пусто"
-msgstr ""
+msgstr "Le panier est vide"
 
 #: handlers/user.py:90
 msgid "Вы добавили товар"
-msgstr ""
+msgstr "Vous avez ajouté un produit"
 
 #: handlers/user.py:93
 msgid "Вы добавили товары"
-msgstr ""
+msgstr "Vous avez ajouté des produits"
 
